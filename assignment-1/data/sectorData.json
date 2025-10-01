@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "sector_name": "Finance"
+  },
+  {
+    "id": 2,
+    "sector_name": "Energy"
+  },
+  {
+    "id": 3,
+    "sector_name": "Industry"
+  },
+  {
+    "id": 4,
+    "sector_name": "Transportation"
+  },
+  {
+    "id": 5,
+    "sector_name": "Agriculture"
+  },
+  {
+    "id": 6,
+    "sector_name": "Technology"
+  },
+  {
+    "id": 7,
+    "sector_name": "Consumer Services"
+  },
+  {
+    "id": 8,
+    "sector_name": "Healthcare"
+  },
+  {
+    "id": 9,
+    "sector_name": "Public Sector"
+  },
+  {
+    "id": 10,
+    "sector_name": "Society"
+  }
+]

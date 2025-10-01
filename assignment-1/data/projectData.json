@@ -1,0 +1,302 @@
+[
+  {
+    "id": 1,
+    "sector_id": 1,
+    "title": "Inclusive Finance Platforms",
+    "feature_img_url": "https://example.com/img/finance-1.jpg",
+    "summary_short": "Expand access to financial services for underserved communities.",
+    "intro_short": "Digital tools lower barriers to credit and savings.",
+    "impact": "Medium",
+    "original_source_url": "https://drawdown.example/finance/inclusive-platforms"
+  },
+  {
+    "id": 2,
+    "sector_id": 1,
+    "title": "Green Bonds for Climate Projects",
+    "feature_img_url": "https://example.com/img/finance-2.jpg",
+    "summary_short": "Issue bonds to fund renewable and efficiency initiatives.",
+    "intro_short": "Capital markets accelerate low-carbon investment.",
+    "impact": "High",
+    "original_source_url": "https://drawdown.example/finance/green-bonds"
+  },
+  {
+    "id": 3,
+    "sector_id": 1,
+    "title": "Climate Risk Disclosure",
+    "feature_img_url": "https://example.com/img/finance-3.jpg",
+    "summary_short": "Standardize climate risk reporting across portfolios.",
+    "intro_short": "Transparent data shifts capital to resilient assets.",
+    "impact": "Medium",
+    "original_source_url": "https://drawdown.example/finance/risk-disclosure"
+  },
+  {
+    "id": 4,
+    "sector_id": 2,
+    "title": "Utility-Scale Solar Photovoltaics",
+    "feature_img_url": "https://example.com/img/energy-1.jpg",
+    "summary_short": "Deploy large solar PV plants for clean electricity.",
+    "intro_short": "Solar displaces fossil generation at scale.",
+    "impact": "High",
+    "original_source_url": "https://drawdown.example/energy/utility-solar"
+  },
+  {
+    "id": 5,
+    "sector_id": 2,
+    "title": "Onshore Wind Power",
+    "feature_img_url": "https://example.com/img/energy-2.jpg",
+    "summary_short": "Expand wind capacity in high-resource regions.",
+    "intro_short": "Mature technology, low cost, rapid deployment.",
+    "impact": "High",
+    "original_source_url": "https://drawdown.example/energy/onshore-wind"
+  },
+  {
+    "id": 6,
+    "sector_id": 2,
+    "title": "Distributed Rooftop Solar",
+    "feature_img_url": "https://example.com/img/energy-3.jpg",
+    "summary_short": "Adopt behind-the-meter solar for homes and businesses.",
+    "intro_short": "Cuts bills and grid emissions.",
+    "impact": "Medium",
+    "original_source_url": "https://drawdown.example/energy/rooftop-solar"
+  },
+  {
+    "id": 7,
+    "sector_id": 3,
+    "title": "Alternative Refrigerants",
+    "feature_img_url": "https://example.com/img/industry-1.jpg",
+    "summary_short": "Phase down HFCs and adopt low-GWP refrigerants.",
+    "intro_short": "Reduces potent greenhouse gases.",
+    "impact": "Very High",
+    "original_source_url": "https://drawdown.example/industry/alt-refrigerants"
+  },
+  {
+    "id": 8,
+    "sector_id": 3,
+    "title": "Cement Blended with SCMs",
+    "feature_img_url": "https://example.com/img/industry-2.jpg",
+    "summary_short": "Use supplementary cementitious materials to lower clinker content.",
+    "intro_short": "Cuts process emissions from cement.",
+    "impact": "High",
+    "original_source_url": "https://drawdown.example/industry/low-clinker-cement"
+  },
+  {
+    "id": 9,
+    "sector_id": 3,
+    "title": "Industrial Energy Efficiency",
+    "feature_img_url": "https://example.com/img/industry-3.jpg",
+    "summary_short": "Optimize motors, steam, and process heat.",
+    "intro_short": "Efficiency lowers costs and emissions.",
+    "impact": "Medium",
+    "original_source_url": "https://drawdown.example/industry/efficiency"
+  },
+  {
+    "id": 10,
+    "sector_id": 4,
+    "title": "Electric Buses",
+    "feature_img_url": "https://example.com/img/transport-1.jpg",
+    "summary_short": "Electrify municipal bus fleets.",
+    "intro_short": "Improves air quality and reduces CO2.",
+    "impact": "Medium",
+    "original_source_url": "https://drawdown.example/transport/electric-buses"
+  },
+  {
+    "id": 11,
+    "sector_id": 4,
+    "title": "EV Charging Networks",
+    "feature_img_url": "https://example.com/img/transport-2.jpg",
+    "summary_short": "Scale public and workplace charging.",
+    "intro_short": "Enables rapid EV adoption.",
+    "impact": "High",
+    "original_source_url": "https://drawdown.example/transport/charging"
+  },
+  {
+    "id": 12,
+    "sector_id": 4,
+    "title": "Active and Public Transport",
+    "feature_img_url": "https://example.com/img/transport-3.jpg",
+    "summary_short": "Shift trips to walking, cycling, and transit.",
+    "intro_short": "Reduces congestion and emissions.",
+    "impact": "Medium",
+    "original_source_url": "https://drawdown.example/transport/mode-shift"
+  },
+  {
+    "id": 13,
+    "sector_id": 5,
+    "title": "Regenerative Agriculture",
+    "feature_img_url": "https://example.com/img/agri-1.jpg",
+    "summary_short": "Restore soil health and sequester carbon.",
+    "intro_short": "Practices improve yields and resilience.",
+    "impact": "High",
+    "original_source_url": "https://drawdown.example/agriculture/regenerative"
+  },
+  {
+    "id": 14,
+    "sector_id": 5,
+    "title": "Silvopasture",
+    "feature_img_url": "https://example.com/img/agri-2.jpg",
+    "summary_short": "Integrate trees with grazing systems.",
+    "intro_short": "Boosts productivity and stores carbon.",
+    "impact": "Medium",
+    "original_source_url": "https://drawdown.example/agriculture/silvopasture"
+  },
+  {
+    "id": 15,
+    "sector_id": 5,
+    "title": "Nutrient Management",
+    "feature_img_url": "https://example.com/img/agri-3.jpg",
+    "summary_short": "Optimize fertilizer to cut nitrous oxide.",
+    "intro_short": "Precision practices reduce losses.",
+    "impact": "Medium",
+    "original_source_url": "https://drawdown.example/agriculture/nutrient-management"
+  },
+  {
+    "id": 16,
+    "sector_id": 6,
+    "title": "Efficient Data Centers",
+    "feature_img_url": "https://example.com/img/tech-1.jpg",
+    "summary_short": "Improve IT and cooling efficiency in data centers.",
+    "intro_short": "PUE reductions save energy at scale.",
+    "impact": "Medium",
+    "original_source_url": "https://drawdown.example/technology/data-centers"
+  },
+  {
+    "id": 17,
+    "sector_id": 6,
+    "title": "Smart Buildings Controls",
+    "feature_img_url": "https://example.com/img/tech-2.jpg",
+    "summary_short": "Use sensors and analytics to optimize building loads.",
+    "intro_short": "Automation lowers peak demand.",
+    "impact": "Medium",
+    "original_source_url": "https://drawdown.example/technology/smart-buildings"
+  },
+  {
+    "id": 18,
+    "sector_id": 6,
+    "title": "Low-Carbon Cloud Platforms",
+    "feature_img_url": "https://example.com/img/tech-3.jpg",
+    "summary_short": "Migrate workloads to renewable-powered clouds.",
+    "intro_short": "Consolidation increases efficiency.",
+    "impact": "Medium",
+    "original_source_url": "https://drawdown.example/technology/green-cloud"
+  },
+  {
+    "id": 19,
+    "sector_id": 7,
+    "title": "Circular Retail Packaging",
+    "feature_img_url": "https://example.com/img/consumer-1.jpg",
+    "summary_short": "Reuse and refill packaging systems.",
+    "intro_short": "Cuts plastic and lifecycle emissions.",
+    "impact": "Medium",
+    "original_source_url": "https://drawdown.example/consumer/reusable-packaging"
+  },
+  {
+    "id": 20,
+    "sector_id": 7,
+    "title": "Sustainable E-commerce Logistics",
+    "feature_img_url": "https://example.com/img/consumer-2.jpg",
+    "summary_short": "Optimize routes and electrify last-mile delivery.",
+    "intro_short": "Lower-cost, low-carbon fulfillment.",
+    "impact": "Medium",
+    "original_source_url": "https://drawdown.example/consumer/green-logistics"
+  },
+  {
+    "id": 21,
+    "sector_id": 7,
+    "title": "Food Waste Reduction Services",
+    "feature_img_url": "https://example.com/img/consumer-3.jpg",
+    "summary_short": "Connect surplus food to consumers and charities.",
+    "intro_short": "Avoided waste avoids emissions.",
+    "impact": "High",
+    "original_source_url": "https://drawdown.example/consumer/food-waste"
+  },
+  {
+    "id": 22,
+    "sector_id": 8,
+    "title": "Telemedicine Expansion",
+    "feature_img_url": "https://example.com/img/health-1.jpg",
+    "summary_short": "Reduce travel by providing remote care.",
+    "intro_short": "Access with lower emissions.",
+    "impact": "Low",
+    "original_source_url": "https://drawdown.example/health/telemedicine"
+  },
+  {
+    "id": 23,
+    "sector_id": 8,
+    "title": "Low-GWP Anesthetics",
+    "feature_img_url": "https://example.com/img/health-2.jpg",
+    "summary_short": "Switch to anesthetics with lower climate impact.",
+    "intro_short": "Policy and training reduce use.",
+    "impact": "Low",
+    "original_source_url": "https://drawdown.example/health/low-gwp-anesthetics"
+  },
+  {
+    "id": 24,
+    "sector_id": 8,
+    "title": "Efficient Hospital Facilities",
+    "feature_img_url": "https://example.com/img/health-3.jpg",
+    "summary_short": "Improve HVAC and lighting in healthcare buildings.",
+    "intro_short": "Saves energy and costs.",
+    "impact": "Medium",
+    "original_source_url": "https://drawdown.example/health/efficient-facilities"
+  },
+  {
+    "id": 25,
+    "sector_id": 9,
+    "title": "Municipal LED Streetlighting",
+    "feature_img_url": "https://example.com/img/public-1.jpg",
+    "summary_short": "Upgrade streetlights to LEDs across cities.",
+    "intro_short": "Immediate savings and emissions cuts.",
+    "impact": "Medium",
+    "original_source_url": "https://drawdown.example/public/led-streetlights"
+  },
+  {
+    "id": 26,
+    "sector_id": 9,
+    "title": "Public Building Retrofits",
+    "feature_img_url": "https://example.com/img/public-2.jpg",
+    "summary_short": "Deep energy retrofits in public facilities.",
+    "intro_short": "Modernization reduces operating costs.",
+    "impact": "High",
+    "original_source_url": "https://drawdown.example/public/retrofits"
+  },
+  {
+    "id": 27,
+    "sector_id": 9,
+    "title": "Low-Carbon Procurement Policies",
+    "feature_img_url": "https://example.com/img/public-3.jpg",
+    "summary_short": "Leverage purchasing to favor low-carbon goods.",
+    "intro_short": "Market signal for cleaner supply chains.",
+    "impact": "Medium",
+    "original_source_url": "https://drawdown.example/public/procurement"
+  },
+  {
+    "id": 28,
+    "sector_id": 10,
+    "title": "Community Energy Cooperatives",
+    "feature_img_url": "https://example.com/img/society-1.jpg",
+    "summary_short": "Local ownership of renewable energy projects.",
+    "intro_short": "Builds equity and participation.",
+    "impact": "Medium",
+    "original_source_url": "https://drawdown.example/society/energy-coops"
+  },
+  {
+    "id": 29,
+    "sector_id": 10,
+    "title": "Climate Education Programs",
+    "feature_img_url": "https://example.com/img/society-2.jpg",
+    "summary_short": "Curricula to accelerate climate literacy.",
+    "intro_short": "Informs choices and careers.",
+    "impact": "Low",
+    "original_source_url": "https://drawdown.example/society/education"
+  },
+  {
+    "id": 30,
+    "sector_id": 10,
+    "title": "Urban Tree Canopy Expansion",
+    "feature_img_url": "https://example.com/img/society-3.jpg",
+    "summary_short": "Plant and maintain urban trees for cooling and carbon.",
+    "intro_short": "Health and climate co-benefits.",
+    "impact": "Medium",
+    "original_source_url": "https://drawdown.example/society/urban-trees"
+  }
+]
