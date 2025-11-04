@@ -2,6 +2,7 @@ const projectData = require("../data/projectData.json");
 const sectorData = require("../data/sectorData.json");
 
 let projects = [];
+let sectors = [];
 
 function initialize() {
   return new Promise((resolve, reject) => {
@@ -12,6 +13,7 @@ function initialize() {
         const sectorName = sector ? sector.sector_name : null;
         projects.push({ ...proj, sector: sectorName });
       });
+      sectors = sectorData;
       resolve();
     } catch (err) {
       reject("unable to initialize projects");
@@ -25,6 +27,16 @@ function getAllProjects() {
       resolve(projects);
     } catch (err) {
       reject("unable to get projects");
+    }
+  });
+}
+
+function getSectors() {
+  return new Promise((resolve, reject) => {
+    try {
+      resolve(sectors);
+    } catch (err) {
+      reject("unable to get sectors");
     }
   });
 }
@@ -59,4 +71,4 @@ function getProjectsBySector(sector) {
   });
 }
 
-module.exports = { initialize, getAllProjects, getProjectById, getProjectsBySector };
+module.exports = { initialize, getAllProjects, getProjectById, getProjectsBySector, getSectors };

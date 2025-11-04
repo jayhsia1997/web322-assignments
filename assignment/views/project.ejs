@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="autumn">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title><%= project.title %> • Climate Solutions</title>
+    <link rel="stylesheet" href="/css/main.css" />
+  </head>
+  <body>
+    <%- include('partials/navbar') %>
+    <main class="container mx-auto p-4">
+      <section class="hero bg-base-200 rounded-box">
+        <div class="hero-content text-center">
+          <div class="max-w-2xl">
+            <h1 class="text-5xl font-bold"><%= project.title %></h1>
+            <p class="py-6">Below, you will find detailed information about the project: <%= project.title %>.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="mt-8 grid gap-6 grid-cols-1 md:grid-cols-2">
+        <div>
+          <img class="rounded-box w-full" src="<%= project.feature_img_url %>" alt="<%= project.title %>" />
+        </div>
+        <div class="prose">
+          <p><strong>Intro:</strong> <%= project.intro_short %></p>
+          <p><strong>Impact:</strong> <%= project.impact %></p>
+          <p>
+            <a class="btn btn-accent text-accent-content hover:bg-primary hover:text-primary-content" href="<%= project.original_source_url %>" target="_blank" rel="noopener">Read more</a>
+          </p>
+          <hr />
+          <div id="quote" class="italic"></div>
+        </div>
+      </section>
+
+      <div class="mt-8">
+        <a class="btn btn-neutral text-neutral-content hover:bg-secondary hover:text-secondary-content" href="#" onclick="history.back(); return false;">Go Back</a>
+      </div>
+    </main>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        fetch("https://dummyjson.com/quotes/random")
+          .then((r) => r.json())
+          .then((data) => {
+            const quoteEl = document.getElementById("quote");
+            if (data && data.quote && data.author) {
+              quoteEl.textContent = `"${data.quote}" — ${data.author}`;
+            }
+          })
+          .catch(() => {});
+      });
+    </script>
+  </body>
+</html>

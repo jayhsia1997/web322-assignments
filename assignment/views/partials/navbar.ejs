@@ -1,0 +1,22 @@
+<div class="navbar bg-base-100">
+  <div class="flex-1">
+    <a href="/" class="btn btn-ghost text-xl">Climate Solutions</a>
+  </div>
+  <div class="flex-none">
+    <ul class="menu menu-horizontal px-1">
+      <li><a href="/about">About</a></li>
+      <li>
+        <details>
+          <summary>Sector</summary>
+          <ul class="bg-base-100 rounded-box p-2 z-99 right-0">
+            <% sectors.forEach(function(s){ %>
+            <li class="hover:bg-accent rounded-box">
+              <a href="/solutions/projects?sector=<%= encodeURIComponent(s.sector_name || '') %>"><%= s.sector_name %></a>
+            </li>
+            <% }) %>
+          </ul>
+        </details>
+      </li>
+    </ul>
+  </div>
+</div>

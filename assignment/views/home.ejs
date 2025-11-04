@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="autumn">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Climate Solutions</title>
+    <link rel="stylesheet" href="/css/main.css" />
+  </head>
+  <body>
+    <%- include('partials/navbar') %>
+    <main class="container mx-auto p-4">
+      <section class="hero bg-base-200 rounded-box">
+        <div class="hero-content text-center">
+          <div class="max-w-2xl">
+            <h1 class="text-5xl font-bold">Explore Climate Solutions</h1>
+            <p class="py-6">Discover impactful projects by sector and learn how they drive change.</p>
+            <a class="btn btn-accent text-accent-content hover:bg-primary hover:text-primary-content" href="/solutions/projects">View Projects</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="mt-8 grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+        <% projects.forEach(function(p){ %>
+        <div class="card bg-base-100 shadow-xl">
+          <figure><img src="<%= p.feature_img_url %>" alt="<%= p.title %>" /></figure>
+          <div class="card-body">
+            <h2 class="card-title"><%= p.title %></h2>
+            <p><%= p.summary_short %></p>
+            <div class="card-actions justify-end">
+              <a class="btn btn-neutral text-neutral-content hover:bg-secondary hover:text-secondary-content" href="/solutions/projects/<%= p.id %>">Details</a>
+            </div>
+          </div>
+        </div>
+        <% }) %>
+      </section>
+    </main>
+  </body>
+</html>

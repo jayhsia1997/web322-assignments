@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="autumn">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Not Found • Climate Solutions</title>
+    <link rel="stylesheet" href="/css/main.css" />
+  </head>
+  <body>
+    <%- include('partials/navbar') %>
+    <main class="container mx-auto p-4">
+      <section class="hero min-h-[50vh] bg-base-200 rounded-box">
+        <div class="hero-content text-center">
+          <div class="max-w-2xl">
+            <h1 class="text-6xl font-bold">404</h1>
+            <p class="py-6"><%= typeof message !== 'undefined' ? message : "I'm sorry, we're unable to find what you're looking for." %></p>
+            <a class="btn" href="#" onclick="history.back(); return false;">Go Back</a>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
