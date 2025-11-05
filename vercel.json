@@ -5,12 +5,6 @@
       "includeFiles": "{views,data,modules,public}/**"
     }
   },
-  "builds": [
-    {
-      "src": "server.js",
-      "use": "@vercel/node"
-    }
-  ],
   "routes": [
     {
       "src": "/(.*)",
