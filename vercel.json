@@ -2,12 +2,7 @@
   "version": 2,
   "functions": {
     "server.js": {
-      "includeFiles": [
-        "views/**",
-        "data/**",
-        "modules/**",
-        "public/**"
-      ]
+      "includeFiles": "{views,data,modules,public}/**"
     }
   },
   "builds": [
